@@ -1,0 +1,119 @@
+/* list列表页专用CSS */
+.nav{
+    overflow: hidden;
+}
+.main{
+    height: 500px;
+}
+.sk{
+    position:absolute;
+    left: 185px;
+    top: 40px;
+    width: 75px;
+    height: 32px;
+    padding:3px 0 0 14px;
+    border-left:1px solid #b1191a;
+}
+.sk_list{
+    float: left;
+    line-height: 47px;
+}
+.sk_list ul li{
+    float: left;
+}
+.sk_list ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding:0 30px;
+}
+.sk_con{
+    float: right;
+    line-height: 49px;
+    margin-right: 60px;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li:last-child a::after{
+    content: '\e6ae';
+    font-family: 'iconfont';
+}
+.sk_con ul li a{
+    font-size: 14px;
+    padding:0 20px;
+}
+.sk_bd{
+    overflow: hidden;
+    /* height: 900px; */
+}
+.sk_bd ul li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    border:1px solid transparent;
+    margin-right : 13px;
+    overflow: hidden;
+}
+.sk_bd ul li:hover{
+    border: 1px solid #ed282e;
+}
+.sk_bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk_bd ul li img{
+    margin: 20px 0 0 80px;
+}
+.sk_bd ul li p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.sk_bd ul li strong{
+    font-size: 22px;
+    color:#e60012;
+    margin-left: 10px;
+}
+.sk_bd ul li strong::before{
+    content: '￥';
+    color:#e60012;
+    font-size: 14px;
+}
+.sk_bd ul li i{
+    text-decoration: line-through;
+    color: #a4a4a4;
+}
+.sk_bd ul li em{
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.sk_bd ul li div{
+    float: left;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.sk_bd ul li span{
+    display: block;
+    height: 10px;
+    width: calc(132px - 15px);
+    background-color: #ed282e;
+    border-radius: 5px;
+}
+.sk_bd ul li s{
+    float: left;
+    text-decoration:none;
+    font-size: 16px;
+    color:#e12228;
+    margin: -3px -5px 0 0 ;
+}
+.sk_bd ul li button{
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+    margin-top: 19px;
+}
